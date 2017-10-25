@@ -98,8 +98,8 @@ public class LogFragment extends Fragment {
 
             @Override
             public void afterTextChanged(Editable s) {
-                //afterTextChanged ÔÚ text·¢Éú¸Ä±äºóÂíÉÏ±»µ÷ÓÃ£¬´ËÊ±¿ÉÄÜtext»¹Î´±»»æÖÆ£¬µ¼ÖÂÎŞ·¨»¬¶¯µ½×îµ×²¿
-                //ËùÒÔ²»ÄÜÖ±½Óµ÷ÓÃ£¬¶øÓ¦¸ÃÊ¹ÓÃpost
+                //afterTextChanged åœ¨ textå‘ç”Ÿæ”¹å˜åé©¬ä¸Šè¢«è°ƒç”¨ï¼Œæ­¤æ—¶å¯èƒ½textè¿˜æœªè¢«ç»˜åˆ¶ï¼Œå¯¼è‡´æ— æ³•æ»‘åŠ¨åˆ°æœ€åº•éƒ¨
+                //æ‰€ä»¥ä¸èƒ½ç›´æ¥è°ƒç”¨ï¼Œè€Œåº”è¯¥ä½¿ç”¨post
                 mScrollView.post(new Runnable(){
                     @Override
                     public void run() {
